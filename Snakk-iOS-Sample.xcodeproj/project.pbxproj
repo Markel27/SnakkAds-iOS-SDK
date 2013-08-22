@@ -727,7 +727,7 @@
 				GCC_PREFIX_HEADER = "Snakk-iOS-Sample/Snakk-iOS-Sample-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
 				INFOPLIST_FILE = "Snakk-iOS-Sample/Snakk-iOS-Sample-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Lib/GoogleAdMobAdsSDK\"",
@@ -814,7 +814,7 @@
 				GCC_PREFIX_HEADER = "Snakk-iOS-Sample/Snakk-iOS-Sample-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
 				INFOPLIST_FILE = "Snakk-iOS-Sample/Snakk-iOS-Sample-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Lib/GoogleAdMobAdsSDK\"",
@@ -843,7 +843,7 @@
 				GCC_PREFIX_HEADER = "Snakk-iOS-Sample/Snakk-iOS-Sample-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
 				INFOPLIST_FILE = "Snakk-iOS-Sample/Snakk-iOS-Sample-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Lib/GoogleAdMobAdsSDK\"",
