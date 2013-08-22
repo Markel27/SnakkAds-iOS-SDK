@@ -1,16 +1,12 @@
 Snakk iOS SDK
 =============
 
-Version 3.0.2
 
 This is the iOS SDK for the Snakk mobile ad network.  Go to http://snakkads.com/ for more details and to sign up.
 
-***Cocos2d users go here: https://github.com/snakk/Snakk-iPhone-SDK/tree/master/cocos2d***
-
-
 Usage:
 ------
-To install, unzip the sdk archive(https://github.com/snakk/Snakk-iPhone-SDK/raw/master/dist/SnakkSDK.zip) into your Xcode project.
+To install, unzip the sdk archive(https://github.com/SnakkMedia/SnakkSDK-iOS/blob/master/dist/SnakkSDK.zip) into your Xcode project.
 
 The following frameworks are required:
 ````
@@ -36,11 +32,11 @@ You can also compile the Snakk SDK directly into your app.  Simply clone this re
 
 This project includes JSONKit and Reachability as a git submodules.  Make sure you pull down submodules when cloning:
 ````
-git clone --recursive https://github.com/snakk/Snakk-iPhone-SDK.git
+git clone --recursive https://github.com/SnakkMedia/SnakkSDK-iOS.git
 ````
 -- or for older versions of git --
 ````
-git clone https://github.com/snakk/Snakk-iPhone-SDK.git
+git clone https://github.com/SnakkMedia/SnakkSDK-iOS.git
 git submodule init
 git submodule update
 ````
@@ -60,7 +56,7 @@ SnakkAdPrompt *prompt = [[[SnakkAdPrompt alloc] initWithRequest:request] autorel
 [prompt showAsAlert];
 ````
 
-For a complete example, see https://github.com/snakk/Snakk-iPhone-SDK/blob/master/Snakk-iOS-Sample/AdPromptDemoController.m
+For a complete example, see https://github.com/SnakkMedia/SnakkSDK-iOS/blob/master/Snakk-iOS-Sample/AdPromptDemoController.m
 
 
 
@@ -91,7 +87,7 @@ snakkAd = [[SnakkBannerAdView alloc] initWithFrame:CGRectMake(0, 0, 320, 50)];
 [self.snakkAd cancelAds];
 ````
 
-For a complete example, see https://github.com/snakk/Snakk-iPhone-SDK/blob/master/Snakk-iOS-Sample/BannerAdController.m
+For a complete example, see https://github.com/SnakkMedia/SnakkSDK-iOS/blob/master/Snakk-iOS-Sample/BannerAdController.m
 
 
 Listen for location updates
@@ -149,7 +145,7 @@ SnakkRequest *request = [SnakkRequest requestWithAdZone:@"YOUR ZONE ID"];
     [self.interstitialAd presentFromViewController:self];
 }
 ````
-For a complete example, see https://github.com/snakk/Snakk-iPhone-SDK/blob/master/Snakk-iOS-Sample/InterstitialController.m
+For a complete example, see https://github.com/SnakkMedia/SnakkSDK-iOS/blob/master/Snakk-iOS-Sample/InterstitialController.m
 
 Include in paged navigation
     
