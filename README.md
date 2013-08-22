@@ -6,7 +6,7 @@ This is the iOS SDK for the Snakk mobile ad network.  Go to http://snakkads.com/
 
 Usage:
 ------
-To install, unzip the sdk archive(https://github.com/SnakkMedia/SnakkSDK-iOS/blob/master/dist/SnakkSDK.zip) into your Xcode project.
+To install, unzip the sdk archive(https://github.com/SnakkMedia/SnakkSDK-iOS/raw/master/dist/Snakk.zip) into your Xcode project.
 
 The following frameworks are required:
 ````
