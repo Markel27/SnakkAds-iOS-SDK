@@ -1,0 +1,890 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C25D75917C204A300EA87F5 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C25D75817C204A300EA87F5 /* Default-Portrait~ipad.png */; };
+		4C26181F17BEEDC7003960D4 /* libTVAST.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C26181E17BEEDC7003960D4 /* libTVAST.a */; };
+		4CBDD0F917C5BC6A009B7FD6 /* ipad_icon_retina.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBDD0F817C5BC6A009B7FD6 /* ipad_icon_retina.png */; };
+		4CBDD0FB17C5BC6E009B7FD6 /* ipad_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBDD0FA17C5BC6E009B7FD6 /* ipad_icon.png */; };
+		4CBDD0FC17C5BC7B009B7FD6 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C25D75617C2049800EA87F5 /* Default-Portrait@2x~ipad.png */; };
+		4CBDD0FD17C5BC86009B7FD6 /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF8804C17C31C0D0068AFE1 /* Default-Landscape@2x~ipad.png */; };
+		4CBDD0FF17C5BC8A009B7FD6 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBDD0FE17C5BC8A009B7FD6 /* Default-Landscape~ipad.png */; };
+		4CBDD10117C5BC94009B7FD6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBDD10017C5BC94009B7FD6 /* Default-568h@2x.png */; };
+		4CBDD10617C5BCF0009B7FD6 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CBDD10217C5BCF0009B7FD6 /* MainStoryboard_iPad.storyboard */; };
+		4CBDD10717C5BCF0009B7FD6 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CBDD10417C5BCF0009B7FD6 /* MainStoryboard_iPhone.storyboard */; };
+		4CBDD12017C5BDA2009B7FD6 /* landscape_iPad_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBDD10817C5BDA2009B7FD6 /* landscape_iPad_background.png */; };
+		4CBDD12117C5BDA2009B7FD6 /* landscape_iPad_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBDD10917C5BDA2009B7FD6 /* landscape_iPad_background@2x.png */; };
+		4CBDD12217C5BDA2009B7FD6 /* landscape_iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBDD10A17C5BDA2009B7FD6 /* landscape_iPhone.png */; };
+		4CBDD12317C5BDA2009B7FD6 /* landscape_iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBDD10B17C5BDA2009B7FD6 /* landscape_iPhone@2x.png */; };
+		4CBDD12417C5BDA2009B7FD6 /* landscape_iPhone5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBDD10C17C5BDA2009B7FD6 /* landscape_iPhone5@2x.png */; };
+		4CBDD12517C5BDA2009B7FD6 /* iPhone_4_Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBDD10D17C5BDA2009B7FD6 /* iPhone_4_Background.png */; };
+		4CBDD12617C5BDA2009B7FD6 /* iPhone_5_Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBDD10E17C5BDA2009B7FD6 /* iPhone_5_Background.png */; };
+		4CBDD12717C5BDA2009B7FD6 /* portrait_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBDD10F17C5BDA2009B7FD6 /* portrait_background@2x.png */; };
+		4CBDD12817C5BDA2009B7FD6 /* portrait_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBDD11017C5BDA2009B7FD6 /* portrait_background.png */; };
+		4CBDD12917C5BDA2009B7FD6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBDD11117C5BDA2009B7FD6 /* Default-568h@2x.png */; };
+		4CBDD12A17C5BDA2009B7FD6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBDD11217C5BDA2009B7FD6 /* Default.png */; };
+		4CBDD12B17C5BDA2009B7FD6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBDD11317C5BDA2009B7FD6 /* Default@2x.png */; };
+		4CBDD12C17C5BDA2009B7FD6 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBDD11417C5BDA2009B7FD6 /* icon.png */; };
+		4CBDD12D17C5BDA2009B7FD6 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBDD11517C5BDA2009B7FD6 /* icon@2x.png */; };
+		4CBDD12E17C5BDA2009B7FD6 /* SnakkBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBDD11617C5BDA2009B7FD6 /* SnakkBackground.png */; };
+		4CBDD12F17C5BDA2009B7FD6 /* SnakkBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBDD11717C5BDA2009B7FD6 /* SnakkBackground@2x.png */; };
+		4CBDD13017C5BDA2009B7FD6 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBDD11817C5BDA2009B7FD6 /* first.png */; };
+		4CBDD13117C5BDA2009B7FD6 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBDD11917C5BDA2009B7FD6 /* first@2x.png */; };
+		4CBDD13217C5BDA2009B7FD6 /* fourth.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBDD11A17C5BDA2009B7FD6 /* fourth.png */; };
+		4CBDD13317C5BDA2009B7FD6 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBDD11B17C5BDA2009B7FD6 /* pause.png */; };
+		4CBDD13417C5BDA2009B7FD6 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBDD11C17C5BDA2009B7FD6 /* play.png */; };
+		4CBDD13517C5BDA2009B7FD6 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBDD11D17C5BDA2009B7FD6 /* second.png */; };
+		4CBDD13617C5BDA2009B7FD6 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBDD11E17C5BDA2009B7FD6 /* second@2x.png */; };
+		4CBDD13717C5BDA2009B7FD6 /* third.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBDD11F17C5BDA2009B7FD6 /* third.png */; };
+		4CBDD13A17C5C6C6009B7FD6 /* BackgroundHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBDD13917C5C6C5009B7FD6 /* BackgroundHelper.m */; };
+		4CF87FBC17C2F01D0068AFE1 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5594987F153695C400D6495D /* iAd.framework */; };
+		4CF87FBE17C2F0630068AFE1 /* libAdapterIAd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF87FBD17C2F0630068AFE1 /* libAdapterIAd.a */; };
+		4CF87FE217C3180C0068AFE1 /* disneyplaneslowbitrate.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 4CF87FCA17C3180C0068AFE1 /* disneyplaneslowbitrate.m4v */; };
+		4CF87FF217C3185E0068AFE1 /* Snakk-iOS-Sample-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CF87FEF17C3185E0068AFE1 /* Snakk-iOS-Sample-Info.plist */; };
+		4CF87FF317C3185E0068AFE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF87FF017C3185E0068AFE1 /* main.m */; };
+		4CF87FF717C318830068AFE1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CF87FF517C318830068AFE1 /* InfoPlist.strings */; };
+		4CF8800A17C318B10068AFE1 /* AdPromptDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF87FF817C318B10068AFE1 /* AdPromptDemoController.m */; };
+		4CF8800B17C318B10068AFE1 /* BannerAdController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF87FF917C318B10068AFE1 /* BannerAdController.m */; };
+		4CF8800C17C318B10068AFE1 /* InterstitialController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF87FFA17C318B10068AFE1 /* InterstitialController.m */; };
+		4CF8800D17C318B10068AFE1 /* AdMobController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF87FFE17C318B10068AFE1 /* AdMobController.m */; };
+		4CF8800E17C318B10068AFE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF8800017C318B10068AFE1 /* AppDelegate.m */; };
+		4CF8800F17C318B10068AFE1 /* FullScreenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF8800117C318B10068AFE1 /* FullScreenVC.m */; };
+		4CF8801017C318B10068AFE1 /* VideoAdController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF8800217C318B10068AFE1 /* VideoAdController.m */; };
+		4CF8801117C318B10068AFE1 /* FullScreenVC_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CF8800617C318B10068AFE1 /* FullScreenVC_iPad.xib */; };
+		4CF8801217C318B10068AFE1 /* FullScreenVC_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CF8800717C318B10068AFE1 /* FullScreenVC_iPhone.xib */; };
+		4CF8801317C318B10068AFE1 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF8800917C318B10068AFE1 /* JSONKit.m */; };
+		4CF8802117C318F50068AFE1 /* TapItMediationAdMob.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF8801D17C318F50068AFE1 /* TapItMediationAdMob.m */; };
+		4CF8802217C318F50068AFE1 /* SnakkBrowserController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF8801F17C318F50068AFE1 /* SnakkBrowserController.m */; };
+		4CF8803517C319020068AFE1 /* SnakkAdPrompt.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF8802317C319020068AFE1 /* SnakkAdPrompt.m */; };
+		4CF8803617C319020068AFE1 /* SnakkAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF8802417C319020068AFE1 /* SnakkAdView.m */; };
+		4CF8803717C319020068AFE1 /* SnakkAppTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF8802517C319020068AFE1 /* SnakkAppTracker.m */; };
+		4CF8803817C319020068AFE1 /* SnakkBannerAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF8802617C319020068AFE1 /* SnakkBannerAdView.m */; };
+		4CF8803917C319020068AFE1 /* SnakkInterstitialAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF8802717C319020068AFE1 /* SnakkInterstitialAd.m */; };
+		4CF8803A17C319020068AFE1 /* SnakkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF8802817C319020068AFE1 /* SnakkRequest.m */; };
+		4CF8803B17C319020068AFE1 /* SnakkAdManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF8802917C319020068AFE1 /* SnakkAdManager.m */; };
+		4CF8803C17C319020068AFE1 /* SnakkInterstitialAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF8802C17C319020068AFE1 /* SnakkInterstitialAdViewController.m */; };
+		4CF8803D17C319020068AFE1 /* SnakkHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF8802F17C319020068AFE1 /* SnakkHelpers.m */; };
+		4CF8803E17C319020068AFE1 /* SnakkMraidCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF8803117C319020068AFE1 /* SnakkMraidCommand.m */; };
+		4CF8805517C32BB60068AFE1 /* Snakk.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4CF8805417C32BB60068AFE1 /* Snakk.bundle */; };
+		55187601179080A100B632B9 /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 558F5161161DFF6900A2A4FE /* libGoogleAdMobAds.a */; settings = {ATTRIBUTES = (Weak, ); }; };
+		55202C031537C59C00B2244E /* NSDictionary+QueryStringBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 55202C021537C59C00B2244E /* NSDictionary+QueryStringBuilder.m */; };
+		552396CC15AC8EF2000E69CC /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 552396CB15AC8EF2000E69CC /* CoreTelephony.framework */; };
+		5528EECC15FFBB51009ED3A4 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 5528EECB15FFBB51009ED3A4 /* LICENSE */; };
+		552EF86B15A2B572009898D4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 552EF86A15A2B572009898D4 /* QuartzCore.framework */; };
+		5532FEDC15EC37CD00427E00 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 550C62F815B6389E00570F4A /* AudioToolbox.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		5532FEDD15EC37ED00427E00 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 550C62FA15B638A800570F4A /* MessageUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		558F516E161E063700A2A4FE /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55BEBE5A160A8CD500072ECD /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		5594982415366E4100D6495D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5594982315366E4100D6495D /* UIKit.framework */; };
+		5594982615366E4100D6495D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5594982515366E4100D6495D /* Foundation.framework */; };
+		5594982815366E4100D6495D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5594982715366E4100D6495D /* CoreGraphics.framework */; };
+		55949863153671A600D6495D /* SnakkOpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = 55949862153671A600D6495D /* SnakkOpenUDID.m */; };
+		55ABC3F915A63AA200B13844 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55ABC3F815A63AA200B13844 /* CoreLocation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		55C7005015A76AEB00818F44 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C7004F15A76AEB00818F44 /* SystemConfiguration.framework */; };
+		55FB5C641644975E00104B13 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5520DA65163207600032C3AD /* StoreKit.framework */; };
+		5D3E342E172612F800A8CA89 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D3E342D172612F800A8CA89 /* AVFoundation.framework */; };
+		5D3E34321726169700A8CA89 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D3E34311726169700A8CA89 /* CoreMedia.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C25D75617C2049800EA87F5 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		4C25D75817C204A300EA87F5 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		4C26181E17BEEDC7003960D4 /* libTVAST.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTVAST.a; path = Lib/libTVAST.a; sourceTree = "<group>"; };
+		4CBDD0F817C5BC6A009B7FD6 /* ipad_icon_retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipad_icon_retina.png; sourceTree = "<group>"; };
+		4CBDD0FA17C5BC6E009B7FD6 /* ipad_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipad_icon.png; sourceTree = "<group>"; };
+		4CBDD0FE17C5BC8A009B7FD6 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		4CBDD10017C5BC94009B7FD6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4CBDD10317C5BCF0009B7FD6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = "Snakk-iOS-Sample/en.lproj/MainStoryboard_iPad.storyboard"; sourceTree = SOURCE_ROOT; };
+		4CBDD10517C5BCF0009B7FD6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = "Snakk-iOS-Sample/en.lproj/MainStoryboard_iPhone.storyboard"; sourceTree = SOURCE_ROOT; };
+		4CBDD10817C5BDA2009B7FD6 /* landscape_iPad_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = landscape_iPad_background.png; path = "Snakk-iOS-Sample/images/landscape_iPad_background.png"; sourceTree = SOURCE_ROOT; };
+		4CBDD10917C5BDA2009B7FD6 /* landscape_iPad_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "landscape_iPad_background@2x.png"; path = "Snakk-iOS-Sample/images/landscape_iPad_background@2x.png"; sourceTree = SOURCE_ROOT; };
+		4CBDD10A17C5BDA2009B7FD6 /* landscape_iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = landscape_iPhone.png; path = "Snakk-iOS-Sample/images/landscape_iPhone.png"; sourceTree = SOURCE_ROOT; };
+		4CBDD10B17C5BDA2009B7FD6 /* landscape_iPhone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "landscape_iPhone@2x.png"; path = "Snakk-iOS-Sample/images/landscape_iPhone@2x.png"; sourceTree = SOURCE_ROOT; };
+		4CBDD10C17C5BDA2009B7FD6 /* landscape_iPhone5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "landscape_iPhone5@2x.png"; path = "Snakk-iOS-Sample/images/landscape_iPhone5@2x.png"; sourceTree = SOURCE_ROOT; };
+		4CBDD10D17C5BDA2009B7FD6 /* iPhone_4_Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iPhone_4_Background.png; path = "Snakk-iOS-Sample/images/iPhone_4_Background.png"; sourceTree = SOURCE_ROOT; };
+		4CBDD10E17C5BDA2009B7FD6 /* iPhone_5_Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iPhone_5_Background.png; path = "Snakk-iOS-Sample/images/iPhone_5_Background.png"; sourceTree = SOURCE_ROOT; };
+		4CBDD10F17C5BDA2009B7FD6 /* portrait_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "portrait_background@2x.png"; path = "Snakk-iOS-Sample/images/portrait_background@2x.png"; sourceTree = SOURCE_ROOT; };
+		4CBDD11017C5BDA2009B7FD6 /* portrait_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = portrait_background.png; path = "Snakk-iOS-Sample/images/portrait_background.png"; sourceTree = SOURCE_ROOT; };
+		4CBDD11117C5BDA2009B7FD6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Snakk-iOS-Sample/images/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
+		4CBDD11217C5BDA2009B7FD6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = "Snakk-iOS-Sample/images/Default.png"; sourceTree = SOURCE_ROOT; };
+		4CBDD11317C5BDA2009B7FD6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Snakk-iOS-Sample/images/Default@2x.png"; sourceTree = SOURCE_ROOT; };
+		4CBDD11417C5BDA2009B7FD6 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = "Snakk-iOS-Sample/images/icon.png"; sourceTree = SOURCE_ROOT; };
+		4CBDD11517C5BDA2009B7FD6 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "Snakk-iOS-Sample/images/icon@2x.png"; sourceTree = SOURCE_ROOT; };
+		4CBDD11617C5BDA2009B7FD6 /* SnakkBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SnakkBackground.png; path = "Snakk-iOS-Sample/images/SnakkBackground.png"; sourceTree = SOURCE_ROOT; };
+		4CBDD11717C5BDA2009B7FD6 /* SnakkBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SnakkBackground@2x.png"; path = "Snakk-iOS-Sample/images/SnakkBackground@2x.png"; sourceTree = SOURCE_ROOT; };
+		4CBDD11817C5BDA2009B7FD6 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = first.png; path = "Snakk-iOS-Sample/images/first.png"; sourceTree = SOURCE_ROOT; };
+		4CBDD11917C5BDA2009B7FD6 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "first@2x.png"; path = "Snakk-iOS-Sample/images/first@2x.png"; sourceTree = SOURCE_ROOT; };
+		4CBDD11A17C5BDA2009B7FD6 /* fourth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fourth.png; path = "Snakk-iOS-Sample/images/fourth.png"; sourceTree = SOURCE_ROOT; };
+		4CBDD11B17C5BDA2009B7FD6 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pause.png; path = "Snakk-iOS-Sample/images/pause.png"; sourceTree = SOURCE_ROOT; };
+		4CBDD11C17C5BDA2009B7FD6 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = play.png; path = "Snakk-iOS-Sample/images/play.png"; sourceTree = SOURCE_ROOT; };
+		4CBDD11D17C5BDA2009B7FD6 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = second.png; path = "Snakk-iOS-Sample/images/second.png"; sourceTree = SOURCE_ROOT; };
+		4CBDD11E17C5BDA2009B7FD6 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "second@2x.png"; path = "Snakk-iOS-Sample/images/second@2x.png"; sourceTree = SOURCE_ROOT; };
+		4CBDD11F17C5BDA2009B7FD6 /* third.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = third.png; path = "Snakk-iOS-Sample/images/third.png"; sourceTree = SOURCE_ROOT; };
+		4CBDD13817C5C6C4009B7FD6 /* BackgroundHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BackgroundHelper.h; path = "Snakk-iOS-Sample/BackgroundHelper.h"; sourceTree = SOURCE_ROOT; };
+		4CBDD13917C5C6C5009B7FD6 /* BackgroundHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BackgroundHelper.m; path = "Snakk-iOS-Sample/BackgroundHelper.m"; sourceTree = SOURCE_ROOT; };
+		4CF87FBD17C2F0630068AFE1 /* libAdapterIAd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAdapterIAd.a; sourceTree = "<group>"; };
+		4CF87FCA17C3180C0068AFE1 /* disneyplaneslowbitrate.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; name = disneyplaneslowbitrate.m4v; path = "Snakk-iOS-Sample/disneyplaneslowbitrate.m4v"; sourceTree = SOURCE_ROOT; };
+		4CF87FEF17C3185E0068AFE1 /* Snakk-iOS-Sample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Snakk-iOS-Sample-Info.plist"; path = "Snakk-iOS-Sample/Snakk-iOS-Sample-Info.plist"; sourceTree = SOURCE_ROOT; };
+		4CF87FF017C3185E0068AFE1 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Snakk-iOS-Sample/main.m"; sourceTree = SOURCE_ROOT; };
+		4CF87FF117C3185E0068AFE1 /* Snakk-iOS-Sample-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Snakk-iOS-Sample-Prefix.pch"; path = "Snakk-iOS-Sample/Snakk-iOS-Sample-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		4CF87FF617C318830068AFE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "Snakk-iOS-Sample/en.lproj/InfoPlist.strings"; sourceTree = SOURCE_ROOT; };
+		4CF87FF817C318B10068AFE1 /* AdPromptDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AdPromptDemoController.m; path = "Snakk-iOS-Sample/AdPromptDemoController.m"; sourceTree = SOURCE_ROOT; };
+		4CF87FF917C318B10068AFE1 /* BannerAdController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BannerAdController.m; path = "Snakk-iOS-Sample/BannerAdController.m"; sourceTree = SOURCE_ROOT; };
+		4CF87FFA17C318B10068AFE1 /* InterstitialController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InterstitialController.m; path = "Snakk-iOS-Sample/InterstitialController.m"; sourceTree = SOURCE_ROOT; };
+		4CF87FFB17C318B10068AFE1 /* AdPromptDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdPromptDemoController.h; path = "Snakk-iOS-Sample/AdPromptDemoController.h"; sourceTree = SOURCE_ROOT; };
+		4CF87FFC17C318B10068AFE1 /* BannerAdController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BannerAdController.h; path = "Snakk-iOS-Sample/BannerAdController.h"; sourceTree = SOURCE_ROOT; };
+		4CF87FFD17C318B10068AFE1 /* AdMobController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdMobController.h; path = "Snakk-iOS-Sample/AdMobController.h"; sourceTree = SOURCE_ROOT; };
+		4CF87FFE17C318B10068AFE1 /* AdMobController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AdMobController.m; path = "Snakk-iOS-Sample/AdMobController.m"; sourceTree = SOURCE_ROOT; };
+		4CF87FFF17C318B10068AFE1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "Snakk-iOS-Sample/AppDelegate.h"; sourceTree = SOURCE_ROOT; };
+		4CF8800017C318B10068AFE1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "Snakk-iOS-Sample/AppDelegate.m"; sourceTree = SOURCE_ROOT; };
+		4CF8800117C318B10068AFE1 /* FullScreenVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FullScreenVC.m; path = "Snakk-iOS-Sample/FullScreenVC.m"; sourceTree = SOURCE_ROOT; };
+		4CF8800217C318B10068AFE1 /* VideoAdController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VideoAdController.m; path = "Snakk-iOS-Sample/VideoAdController.m"; sourceTree = SOURCE_ROOT; };
+		4CF8800317C318B10068AFE1 /* FullScreenVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FullScreenVC.h; path = "Snakk-iOS-Sample/FullScreenVC.h"; sourceTree = SOURCE_ROOT; };
+		4CF8800417C318B10068AFE1 /* InterstitialController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InterstitialController.h; path = "Snakk-iOS-Sample/InterstitialController.h"; sourceTree = SOURCE_ROOT; };
+		4CF8800517C318B10068AFE1 /* VideoAdController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VideoAdController.h; path = "Snakk-iOS-Sample/VideoAdController.h"; sourceTree = SOURCE_ROOT; };
+		4CF8800617C318B10068AFE1 /* FullScreenVC_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FullScreenVC_iPad.xib; path = "Snakk-iOS-Sample/FullScreenVC_iPad.xib"; sourceTree = SOURCE_ROOT; };
+		4CF8800717C318B10068AFE1 /* FullScreenVC_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FullScreenVC_iPhone.xib; path = "Snakk-iOS-Sample/FullScreenVC_iPhone.xib"; sourceTree = SOURCE_ROOT; };
+		4CF8800817C318B10068AFE1 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONKit.h; path = "Snakk-iOS-Sample/JSONKit.h"; sourceTree = SOURCE_ROOT; };
+		4CF8800917C318B10068AFE1 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONKit.m; path = "Snakk-iOS-Sample/JSONKit.m"; sourceTree = SOURCE_ROOT; };
+		4CF8801417C318E50068AFE1 /* SnakkConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SnakkConstants.h; path = SnakkSDK/Headers/SnakkConstants.h; sourceTree = "<group>"; };
+		4CF8801517C318E50068AFE1 /* SnakkAdDelegates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SnakkAdDelegates.h; path = SnakkSDK/Headers/SnakkAdDelegates.h; sourceTree = "<group>"; };
+		4CF8801617C318E50068AFE1 /* Snakk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Snakk.h; path = SnakkSDK/Headers/Snakk.h; sourceTree = "<group>"; };
+		4CF8801717C318E50068AFE1 /* SnakkAdPrompt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SnakkAdPrompt.h; path = SnakkSDK/Headers/SnakkAdPrompt.h; sourceTree = "<group>"; };
+		4CF8801817C318E50068AFE1 /* SnakkAppTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SnakkAppTracker.h; path = SnakkSDK/Headers/SnakkAppTracker.h; sourceTree = "<group>"; };
+		4CF8801917C318E50068AFE1 /* SnakkInterstitialAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SnakkInterstitialAd.h; path = SnakkSDK/Headers/SnakkInterstitialAd.h; sourceTree = "<group>"; };
+		4CF8801A17C318E50068AFE1 /* SnakkRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SnakkRequest.h; path = SnakkSDK/Headers/SnakkRequest.h; sourceTree = "<group>"; };
+		4CF8801B17C318E50068AFE1 /* SnakkBannerAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SnakkBannerAdView.h; path = SnakkSDK/Headers/SnakkBannerAdView.h; sourceTree = "<group>"; };
+		4CF8801C17C318E50068AFE1 /* SnakkAdMobStubs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SnakkAdMobStubs.h; path = SnakkSDK/Headers/SnakkAdMobStubs.h; sourceTree = "<group>"; };
+		4CF8801D17C318F50068AFE1 /* TapItMediationAdMob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TapItMediationAdMob.m; path = SnakkSDK/TapItMediationAdMob.m; sourceTree = "<group>"; };
+		4CF8801E17C318F50068AFE1 /* TapItMediationAdMob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TapItMediationAdMob.h; path = SnakkSDK/TapItMediationAdMob.h; sourceTree = "<group>"; };
+		4CF8801F17C318F50068AFE1 /* SnakkBrowserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SnakkBrowserController.m; path = SnakkSDK/SnakkBrowserController.m; sourceTree = "<group>"; };
+		4CF8802017C318F50068AFE1 /* SnakkPrivateConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SnakkPrivateConstants.h; path = SnakkSDK/SnakkPrivateConstants.h; sourceTree = "<group>"; };
+		4CF8802317C319020068AFE1 /* SnakkAdPrompt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SnakkAdPrompt.m; path = SnakkSDK/SnakkAdPrompt.m; sourceTree = "<group>"; };
+		4CF8802417C319020068AFE1 /* SnakkAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SnakkAdView.m; path = SnakkSDK/SnakkAdView.m; sourceTree = "<group>"; };
+		4CF8802517C319020068AFE1 /* SnakkAppTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SnakkAppTracker.m; path = SnakkSDK/SnakkAppTracker.m; sourceTree = "<group>"; };
+		4CF8802617C319020068AFE1 /* SnakkBannerAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SnakkBannerAdView.m; path = SnakkSDK/SnakkBannerAdView.m; sourceTree = "<group>"; };
+		4CF8802717C319020068AFE1 /* SnakkInterstitialAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SnakkInterstitialAd.m; path = SnakkSDK/SnakkInterstitialAd.m; sourceTree = "<group>"; };
+		4CF8802817C319020068AFE1 /* SnakkRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SnakkRequest.m; path = SnakkSDK/SnakkRequest.m; sourceTree = "<group>"; };
+		4CF8802917C319020068AFE1 /* SnakkAdManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SnakkAdManager.m; path = SnakkSDK/SnakkAdManager.m; sourceTree = "<group>"; };
+		4CF8802A17C319020068AFE1 /* SnakkAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SnakkAdView.h; path = SnakkSDK/SnakkAdView.h; sourceTree = "<group>"; };
+		4CF8802B17C319020068AFE1 /* SnakkInterstitialAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SnakkInterstitialAdViewController.h; path = SnakkSDK/SnakkInterstitialAdViewController.h; sourceTree = "<group>"; };
+		4CF8802C17C319020068AFE1 /* SnakkInterstitialAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SnakkInterstitialAdViewController.m; path = SnakkSDK/SnakkInterstitialAdViewController.m; sourceTree = "<group>"; };
+		4CF8802D17C319020068AFE1 /* SnakkAdManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SnakkAdManager.h; path = SnakkSDK/SnakkAdManager.h; sourceTree = "<group>"; };
+		4CF8802E17C319020068AFE1 /* SnakkAdManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SnakkAdManagerDelegate.h; path = SnakkSDK/SnakkAdManagerDelegate.h; sourceTree = "<group>"; };
+		4CF8802F17C319020068AFE1 /* SnakkHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SnakkHelpers.m; path = SnakkSDK/SnakkHelpers.m; sourceTree = "<group>"; };
+		4CF8803017C319020068AFE1 /* SnakkMraidCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SnakkMraidCommand.h; path = SnakkSDK/SnakkMraidCommand.h; sourceTree = "<group>"; };
+		4CF8803117C319020068AFE1 /* SnakkMraidCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SnakkMraidCommand.m; path = SnakkSDK/SnakkMraidCommand.m; sourceTree = "<group>"; };
+		4CF8803217C319020068AFE1 /* SnakkMRAIDDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SnakkMRAIDDelegate.h; path = SnakkSDK/SnakkMRAIDDelegate.h; sourceTree = "<group>"; };
+		4CF8803317C319020068AFE1 /* SnakkBrowserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SnakkBrowserController.h; path = SnakkSDK/SnakkBrowserController.h; sourceTree = "<group>"; };
+		4CF8803417C319020068AFE1 /* SnakkHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SnakkHelpers.h; path = SnakkSDK/SnakkHelpers.h; sourceTree = "<group>"; };
+		4CF8803F17C319200068AFE1 /* TVASTVideoAdsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TVASTVideoAdsManager.h; path = TVAST/TVASTVideoAdsManager.h; sourceTree = "<group>"; };
+		4CF8804017C319200068AFE1 /* TVASTAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TVASTAd.h; path = TVAST/TVASTAd.h; sourceTree = "<group>"; };
+		4CF8804117C319200068AFE1 /* TVASTAdError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TVASTAdError.h; path = TVAST/TVASTAdError.h; sourceTree = "<group>"; };
+		4CF8804217C319200068AFE1 /* TVASTAdsLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TVASTAdsLoader.h; path = TVAST/TVASTAdsLoader.h; sourceTree = "<group>"; };
+		4CF8804317C319200068AFE1 /* TVASTAdsRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TVASTAdsRequest.h; path = TVAST/TVASTAdsRequest.h; sourceTree = "<group>"; };
+		4CF8804417C319200068AFE1 /* TVASTClickThroughBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TVASTClickThroughBrowser.h; path = TVAST/TVASTClickThroughBrowser.h; sourceTree = "<group>"; };
+		4CF8804517C319200068AFE1 /* TVASTClickTrackingUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TVASTClickTrackingUIView.h; path = TVAST/TVASTClickTrackingUIView.h; sourceTree = "<group>"; };
+		4CF8804C17C31C0D0068AFE1 /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		4CF8805417C32BB60068AFE1 /* Snakk.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Snakk.bundle; path = SnakkSDK/Snakk.bundle; sourceTree = "<group>"; };
+		550C62F815B6389E00570F4A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		550C62FA15B638A800570F4A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		55202C011537C59C00B2244E /* NSDictionary+QueryStringBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+QueryStringBuilder.h"; sourceTree = "<group>"; };
+		55202C021537C59C00B2244E /* NSDictionary+QueryStringBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+QueryStringBuilder.m"; sourceTree = "<group>"; };
+		5520DA65163207600032C3AD /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		552396CB15AC8EF2000E69CC /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		5528EECB15FFBB51009ED3A4 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		552EF86A15A2B572009898D4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5572AABA15997D1000D3E5A6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		558F514F161DFF6900A2A4FE /* GADCustomEventBanner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADCustomEventBanner.h; sourceTree = "<group>"; };
+		558F5150161DFF6900A2A4FE /* GADCustomEventBannerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADCustomEventBannerDelegate.h; sourceTree = "<group>"; };
+		558F5151161DFF6900A2A4FE /* GADCustomEventExtras.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADCustomEventExtras.h; sourceTree = "<group>"; };
+		558F5152161DFF6900A2A4FE /* GADCustomEventInterstitial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADCustomEventInterstitial.h; sourceTree = "<group>"; };
+		558F5153161DFF6900A2A4FE /* GADCustomEventInterstitialDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADCustomEventInterstitialDelegate.h; sourceTree = "<group>"; };
+		558F5154161DFF6900A2A4FE /* GADCustomEventRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADCustomEventRequest.h; sourceTree = "<group>"; };
+		558F5158161DFF6900A2A4FE /* GADAdMobExtras.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADAdMobExtras.h; sourceTree = "<group>"; };
+		558F5159161DFF6900A2A4FE /* GADAdNetworkExtras.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADAdNetworkExtras.h; sourceTree = "<group>"; };
+		558F515A161DFF6900A2A4FE /* GADAdSize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADAdSize.h; sourceTree = "<group>"; };
+		558F515B161DFF6900A2A4FE /* GADBannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADBannerView.h; sourceTree = "<group>"; };
+		558F515C161DFF6900A2A4FE /* GADBannerViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADBannerViewDelegate.h; sourceTree = "<group>"; };
+		558F515D161DFF6900A2A4FE /* GADInterstitial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADInterstitial.h; sourceTree = "<group>"; };
+		558F515E161DFF6900A2A4FE /* GADInterstitialDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADInterstitialDelegate.h; sourceTree = "<group>"; };
+		558F515F161DFF6900A2A4FE /* GADRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADRequest.h; sourceTree = "<group>"; };
+		558F5160161DFF6900A2A4FE /* GADRequestError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADRequestError.h; sourceTree = "<group>"; };
+		558F5161161DFF6900A2A4FE /* libGoogleAdMobAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAdMobAds.a; sourceTree = "<group>"; };
+		558F5162161DFF6900A2A4FE /* README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		558F516A161E00EC00A2A4FE /* GADMEnums.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADMEnums.h; sourceTree = "<group>"; };
+		558F516B161E00EC00A2A4FE /* GADMAdNetworkAdapterProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADMAdNetworkAdapterProtocol.h; sourceTree = "<group>"; };
+		558F516C161E00EC00A2A4FE /* GADMAdNetworkConnectorProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADMAdNetworkConnectorProtocol.h; sourceTree = "<group>"; };
+		5594981F15366E4100D6495D /* Snakk-iOS-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Snakk-iOS-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5594982315366E4100D6495D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5594982515366E4100D6495D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5594982715366E4100D6495D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		55949861153671A600D6495D /* SnakkOpenUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnakkOpenUDID.h; sourceTree = "<group>"; };
+		55949862153671A600D6495D /* SnakkOpenUDID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = SnakkOpenUDID.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		5594987F153695C400D6495D /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		55A64B5D1537E7F200AFDDFF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		55ABC3F815A63AA200B13844 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		55BEBE5A160A8CD500072ECD /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		55C7004F15A76AEB00818F44 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		55C74F6B15F0836D00981B79 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		5D35357B1739AE9E00660408 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		5D35357C1739AE9E00660408 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		5D3E342D172612F800A8CA89 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5D3E34311726169700A8CA89 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		5D8E68C117729CDB00BDE967 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5594981C15366E4100D6495D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF87FBC17C2F01D0068AFE1 /* iAd.framework in Frameworks */,
+				5D3E34321726169700A8CA89 /* CoreMedia.framework in Frameworks */,
+				5D3E342E172612F800A8CA89 /* AVFoundation.framework in Frameworks */,
+				55FB5C641644975E00104B13 /* StoreKit.framework in Frameworks */,
+				558F516E161E063700A2A4FE /* AdSupport.framework in Frameworks */,
+				5532FEDC15EC37CD00427E00 /* AudioToolbox.framework in Frameworks */,
+				552396CC15AC8EF2000E69CC /* CoreTelephony.framework in Frameworks */,
+				55C7005015A76AEB00818F44 /* SystemConfiguration.framework in Frameworks */,
+				55ABC3F915A63AA200B13844 /* CoreLocation.framework in Frameworks */,
+				552EF86B15A2B572009898D4 /* QuartzCore.framework in Frameworks */,
+				5594982415366E4100D6495D /* UIKit.framework in Frameworks */,
+				5594982615366E4100D6495D /* Foundation.framework in Frameworks */,
+				5594982815366E4100D6495D /* CoreGraphics.framework in Frameworks */,
+				5532FEDD15EC37ED00427E00 /* MessageUI.framework in Frameworks */,
+				55187601179080A100B632B9 /* libGoogleAdMobAds.a in Frameworks */,
+				4C26181F17BEEDC7003960D4 /* libTVAST.a in Frameworks */,
+				4CF87FBE17C2F0630068AFE1 /* libAdapterIAd.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		558F50FF161DFF6900A2A4FE /* GoogleAdMobAdsSDK */ = {
+			isa = PBXGroup;
+			children = (
+				558F5100161DFF6900A2A4FE /* Add-ons */,
+				558F5158161DFF6900A2A4FE /* GADAdMobExtras.h */,
+				558F5159161DFF6900A2A4FE /* GADAdNetworkExtras.h */,
+				558F515A161DFF6900A2A4FE /* GADAdSize.h */,
+				558F515B161DFF6900A2A4FE /* GADBannerView.h */,
+				558F515C161DFF6900A2A4FE /* GADBannerViewDelegate.h */,
+				558F515D161DFF6900A2A4FE /* GADInterstitial.h */,
+				558F515E161DFF6900A2A4FE /* GADInterstitialDelegate.h */,
+				558F516B161E00EC00A2A4FE /* GADMAdNetworkAdapterProtocol.h */,
+				558F516C161E00EC00A2A4FE /* GADMAdNetworkConnectorProtocol.h */,
+				558F516A161E00EC00A2A4FE /* GADMEnums.h */,
+				558F515F161DFF6900A2A4FE /* GADRequest.h */,
+				558F5160161DFF6900A2A4FE /* GADRequestError.h */,
+				558F5161161DFF6900A2A4FE /* libGoogleAdMobAds.a */,
+				558F5162161DFF6900A2A4FE /* README.txt */,
+			);
+			path = GoogleAdMobAdsSDK;
+			sourceTree = "<group>";
+		};
+		558F5100161DFF6900A2A4FE /* Add-ons */ = {
+			isa = PBXGroup;
+			children = (
+				558F514E161DFF6900A2A4FE /* Mediation */,
+			);
+			path = "Add-ons";
+			sourceTree = "<group>";
+		};
+		558F514E161DFF6900A2A4FE /* Mediation */ = {
+			isa = PBXGroup;
+			children = (
+				558F514F161DFF6900A2A4FE /* GADCustomEventBanner.h */,
+				558F5150161DFF6900A2A4FE /* GADCustomEventBannerDelegate.h */,
+				558F5151161DFF6900A2A4FE /* GADCustomEventExtras.h */,
+				558F5152161DFF6900A2A4FE /* GADCustomEventInterstitial.h */,
+				558F5153161DFF6900A2A4FE /* GADCustomEventInterstitialDelegate.h */,
+				558F5154161DFF6900A2A4FE /* GADCustomEventRequest.h */,
+			);
+			path = Mediation;
+			sourceTree = "<group>";
+		};
+		5594981415366E4100D6495D = {
+			isa = PBXGroup;
+			children = (
+				4CBDD10017C5BC94009B7FD6 /* Default-568h@2x.png */,
+				4CBDD0FE17C5BC8A009B7FD6 /* Default-Landscape~ipad.png */,
+				4CBDD0FA17C5BC6E009B7FD6 /* ipad_icon.png */,
+				4CBDD0F817C5BC6A009B7FD6 /* ipad_icon_retina.png */,
+				4CF8804C17C31C0D0068AFE1 /* Default-Landscape@2x~ipad.png */,
+				4C25D75817C204A300EA87F5 /* Default-Portrait~ipad.png */,
+				4C25D75617C2049800EA87F5 /* Default-Portrait@2x~ipad.png */,
+				5528EECB15FFBB51009ED3A4 /* LICENSE */,
+				5572AABA15997D1000D3E5A6 /* README.md */,
+				5594982915366E4100D6495D /* Snakk-iOS-Sample */,
+				5594984E15366E4900D6495D /* SnakkSDK */,
+				5594985F153671A600D6495D /* Lib */,
+				5594982215366E4100D6495D /* Frameworks */,
+				5594982015366E4100D6495D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5594982015366E4100D6495D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5594981F15366E4100D6495D /* Snakk-iOS-Sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5594982215366E4100D6495D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D8E68C117729CDB00BDE967 /* MediaPlayer.framework */,
+				5D3E34311726169700A8CA89 /* CoreMedia.framework */,
+				5520DA65163207600032C3AD /* StoreKit.framework */,
+				55BEBE5A160A8CD500072ECD /* AdSupport.framework */,
+				550C62FA15B638A800570F4A /* MessageUI.framework */,
+				550C62F815B6389E00570F4A /* AudioToolbox.framework */,
+				552396CB15AC8EF2000E69CC /* CoreTelephony.framework */,
+				55C7004F15A76AEB00818F44 /* SystemConfiguration.framework */,
+				55ABC3F815A63AA200B13844 /* CoreLocation.framework */,
+				552EF86A15A2B572009898D4 /* QuartzCore.framework */,
+				5D3E342D172612F800A8CA89 /* AVFoundation.framework */,
+				5594987F153695C400D6495D /* iAd.framework */,
+				5594982315366E4100D6495D /* UIKit.framework */,
+				5594982515366E4100D6495D /* Foundation.framework */,
+				5594982715366E4100D6495D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5594982915366E4100D6495D /* Snakk-iOS-Sample */ = {
+			isa = PBXGroup;
+			children = (
+				4CBDD10217C5BCF0009B7FD6 /* MainStoryboard_iPad.storyboard */,
+				4CBDD10417C5BCF0009B7FD6 /* MainStoryboard_iPhone.storyboard */,
+				4CF87FFD17C318B10068AFE1 /* AdMobController.h */,
+				4CF87FFE17C318B10068AFE1 /* AdMobController.m */,
+				4CF87FFB17C318B10068AFE1 /* AdPromptDemoController.h */,
+				4CF87FF817C318B10068AFE1 /* AdPromptDemoController.m */,
+				4CF87FFF17C318B10068AFE1 /* AppDelegate.h */,
+				4CF8800017C318B10068AFE1 /* AppDelegate.m */,
+				4CF87FFC17C318B10068AFE1 /* BannerAdController.h */,
+				4CF87FF917C318B10068AFE1 /* BannerAdController.m */,
+				4CF8800317C318B10068AFE1 /* FullScreenVC.h */,
+				4CF8800117C318B10068AFE1 /* FullScreenVC.m */,
+				4CF8800617C318B10068AFE1 /* FullScreenVC_iPad.xib */,
+				4CF8800717C318B10068AFE1 /* FullScreenVC_iPhone.xib */,
+				5D15DF371735A9E20099986D /* Images */,
+				4CF8800417C318B10068AFE1 /* InterstitialController.h */,
+				4CF87FFA17C318B10068AFE1 /* InterstitialController.m */,
+				5594982A15366E4100D6495D /* Supporting Files */,
+				4CF8800517C318B10068AFE1 /* VideoAdController.h */,
+				4CF8800217C318B10068AFE1 /* VideoAdController.m */,
+				4CBDD13817C5C6C4009B7FD6 /* BackgroundHelper.h */,
+				4CBDD13917C5C6C5009B7FD6 /* BackgroundHelper.m */,
+			);
+			name = "Snakk-iOS-Sample";
+			path = "TapIt-iOS-Sample";
+			sourceTree = "<group>";
+		};
+		5594982A15366E4100D6495D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CF87FF517C318830068AFE1 /* InfoPlist.strings */,
+				4CF87FEF17C3185E0068AFE1 /* Snakk-iOS-Sample-Info.plist */,
+				4CF87FF017C3185E0068AFE1 /* main.m */,
+				4CF87FF117C3185E0068AFE1 /* Snakk-iOS-Sample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5594984E15366E4900D6495D /* SnakkSDK */ = {
+			isa = PBXGroup;
+			children = (
+				4CF8805417C32BB60068AFE1 /* Snakk.bundle */,
+				5594984F15366E5500D6495D /* Headers */,
+				55C74F6B15F0836D00981B79 /* README.txt */,
+				4CF8802D17C319020068AFE1 /* SnakkAdManager.h */,
+				4CF8802917C319020068AFE1 /* SnakkAdManager.m */,
+				4CF8802E17C319020068AFE1 /* SnakkAdManagerDelegate.h */,
+				4CF8802317C319020068AFE1 /* SnakkAdPrompt.m */,
+				4CF8802A17C319020068AFE1 /* SnakkAdView.h */,
+				4CF8802417C319020068AFE1 /* SnakkAdView.m */,
+				4CF8802517C319020068AFE1 /* SnakkAppTracker.m */,
+				4CF8802617C319020068AFE1 /* SnakkBannerAdView.m */,
+				4CF8803317C319020068AFE1 /* SnakkBrowserController.h */,
+				4CF8801F17C318F50068AFE1 /* SnakkBrowserController.m */,
+				4CF8803417C319020068AFE1 /* SnakkHelpers.h */,
+				4CF8802F17C319020068AFE1 /* SnakkHelpers.m */,
+				4CF8802717C319020068AFE1 /* SnakkInterstitialAd.m */,
+				4CF8802B17C319020068AFE1 /* SnakkInterstitialAdViewController.h */,
+				4CF8802C17C319020068AFE1 /* SnakkInterstitialAdViewController.m */,
+				4CF8803017C319020068AFE1 /* SnakkMraidCommand.h */,
+				4CF8803117C319020068AFE1 /* SnakkMraidCommand.m */,
+				4CF8803217C319020068AFE1 /* SnakkMRAIDDelegate.h */,
+				4CF8802017C318F50068AFE1 /* SnakkPrivateConstants.h */,
+				4CF8802817C319020068AFE1 /* SnakkRequest.m */,
+				4CF8801E17C318F50068AFE1 /* TapItMediationAdMob.h */,
+				4CF8801D17C318F50068AFE1 /* TapItMediationAdMob.m */,
+			);
+			name = SnakkSDK;
+			sourceTree = "<group>";
+		};
+		5594984F15366E5500D6495D /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				4CF8801417C318E50068AFE1 /* SnakkConstants.h */,
+				4CF8801517C318E50068AFE1 /* SnakkAdDelegates.h */,
+				4CF8801617C318E50068AFE1 /* Snakk.h */,
+				4CF8801717C318E50068AFE1 /* SnakkAdPrompt.h */,
+				4CF8801817C318E50068AFE1 /* SnakkAppTracker.h */,
+				4CF8801917C318E50068AFE1 /* SnakkInterstitialAd.h */,
+				4CF8801A17C318E50068AFE1 /* SnakkRequest.h */,
+				4CF8801B17C318E50068AFE1 /* SnakkBannerAdView.h */,
+				4CF8801C17C318E50068AFE1 /* SnakkAdMobStubs.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		5594985F153671A600D6495D /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				558F50FF161DFF6900A2A4FE /* GoogleAdMobAdsSDK */,
+				55A64B591537E7F200AFDDFF /* JSONKit */,
+				4CF87FBD17C2F0630068AFE1 /* libAdapterIAd.a */,
+				55202C011537C59C00B2244E /* NSDictionary+QueryStringBuilder.h */,
+				55202C021537C59C00B2244E /* NSDictionary+QueryStringBuilder.m */,
+				55949860153671A600D6495D /* OpenUDID */,
+				5DB08671172F31EA00D5C8D3 /* TVAST */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		55949860153671A600D6495D /* OpenUDID */ = {
+			isa = PBXGroup;
+			children = (
+				55949861153671A600D6495D /* SnakkOpenUDID.h */,
+				55949862153671A600D6495D /* SnakkOpenUDID.m */,
+			);
+			path = OpenUDID;
+			sourceTree = "<group>";
+		};
+		55A64B591537E7F200AFDDFF /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				4CF8800817C318B10068AFE1 /* JSONKit.h */,
+				4CF8800917C318B10068AFE1 /* JSONKit.m */,
+				55A64B5D1537E7F200AFDDFF /* README.md */,
+			);
+			path = JSONKit;
+			sourceTree = "<group>";
+		};
+		5D15DF371735A9E20099986D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4CBDD10817C5BDA2009B7FD6 /* landscape_iPad_background.png */,
+				4CBDD10917C5BDA2009B7FD6 /* landscape_iPad_background@2x.png */,
+				4CBDD10A17C5BDA2009B7FD6 /* landscape_iPhone.png */,
+				4CBDD10B17C5BDA2009B7FD6 /* landscape_iPhone@2x.png */,
+				4CBDD10C17C5BDA2009B7FD6 /* landscape_iPhone5@2x.png */,
+				4CBDD10D17C5BDA2009B7FD6 /* iPhone_4_Background.png */,
+				4CBDD10E17C5BDA2009B7FD6 /* iPhone_5_Background.png */,
+				4CBDD10F17C5BDA2009B7FD6 /* portrait_background@2x.png */,
+				4CBDD11017C5BDA2009B7FD6 /* portrait_background.png */,
+				4CBDD11117C5BDA2009B7FD6 /* Default-568h@2x.png */,
+				4CBDD11217C5BDA2009B7FD6 /* Default.png */,
+				4CBDD11317C5BDA2009B7FD6 /* Default@2x.png */,
+				4CBDD11417C5BDA2009B7FD6 /* icon.png */,
+				4CBDD11517C5BDA2009B7FD6 /* icon@2x.png */,
+				4CBDD11617C5BDA2009B7FD6 /* SnakkBackground.png */,
+				4CBDD11717C5BDA2009B7FD6 /* SnakkBackground@2x.png */,
+				4CBDD11817C5BDA2009B7FD6 /* first.png */,
+				4CBDD11917C5BDA2009B7FD6 /* first@2x.png */,
+				4CBDD11A17C5BDA2009B7FD6 /* fourth.png */,
+				4CBDD11B17C5BDA2009B7FD6 /* pause.png */,
+				4CBDD11C17C5BDA2009B7FD6 /* play.png */,
+				4CBDD11D17C5BDA2009B7FD6 /* second.png */,
+				4CBDD11E17C5BDA2009B7FD6 /* second@2x.png */,
+				4CBDD11F17C5BDA2009B7FD6 /* third.png */,
+				4CF87FCA17C3180C0068AFE1 /* disneyplaneslowbitrate.m4v */,
+				5D35357B1739AE9E00660408 /* Default-Portrait@2x~ipad.png */,
+				5D35357C1739AE9E00660408 /* Default-Portrait~ipad.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		5DB08671172F31EA00D5C8D3 /* TVAST */ = {
+			isa = PBXGroup;
+			children = (
+				4CF8803F17C319200068AFE1 /* TVASTVideoAdsManager.h */,
+				4CF8804017C319200068AFE1 /* TVASTAd.h */,
+				4CF8804117C319200068AFE1 /* TVASTAdError.h */,
+				4CF8804217C319200068AFE1 /* TVASTAdsLoader.h */,
+				4CF8804317C319200068AFE1 /* TVASTAdsRequest.h */,
+				4CF8804417C319200068AFE1 /* TVASTClickThroughBrowser.h */,
+				4CF8804517C319200068AFE1 /* TVASTClickTrackingUIView.h */,
+				4C26181E17BEEDC7003960D4 /* libTVAST.a */,
+			);
+			name = TVAST;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5594981E15366E4100D6495D /* Snakk-iOS-Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5594984B15366E4200D6495D /* Build configuration list for PBXNativeTarget "Snakk-iOS-Sample" */;
+			buildPhases = (
+				5594981B15366E4100D6495D /* Sources */,
+				5594981C15366E4100D6495D /* Frameworks */,
+				5594981D15366E4100D6495D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Snakk-iOS-Sample";
+			productName = "TapIt-iOS-Sample";
+			productReference = 5594981F15366E4100D6495D /* Snakk-iOS-Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5594981615366E4100D6495D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = 5594981915366E4100D6495D /* Build configuration list for PBXProject "Snakk-iOS-Sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5594981415366E4100D6495D;
+			productRefGroup = 5594982015366E4100D6495D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5594981E15366E4100D6495D /* Snakk-iOS-Sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5594981D15366E4100D6495D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5528EECC15FFBB51009ED3A4 /* LICENSE in Resources */,
+				4C25D75917C204A300EA87F5 /* Default-Portrait~ipad.png in Resources */,
+				4CF87FE217C3180C0068AFE1 /* disneyplaneslowbitrate.m4v in Resources */,
+				4CF87FF217C3185E0068AFE1 /* Snakk-iOS-Sample-Info.plist in Resources */,
+				4CF87FF717C318830068AFE1 /* InfoPlist.strings in Resources */,
+				4CF8801117C318B10068AFE1 /* FullScreenVC_iPad.xib in Resources */,
+				4CF8801217C318B10068AFE1 /* FullScreenVC_iPhone.xib in Resources */,
+				4CF8805517C32BB60068AFE1 /* Snakk.bundle in Resources */,
+				4CBDD0F917C5BC6A009B7FD6 /* ipad_icon_retina.png in Resources */,
+				4CBDD0FB17C5BC6E009B7FD6 /* ipad_icon.png in Resources */,
+				4CBDD0FC17C5BC7B009B7FD6 /* Default-Portrait@2x~ipad.png in Resources */,
+				4CBDD0FD17C5BC86009B7FD6 /* Default-Landscape@2x~ipad.png in Resources */,
+				4CBDD0FF17C5BC8A009B7FD6 /* Default-Landscape~ipad.png in Resources */,
+				4CBDD10117C5BC94009B7FD6 /* Default-568h@2x.png in Resources */,
+				4CBDD10617C5BCF0009B7FD6 /* MainStoryboard_iPad.storyboard in Resources */,
+				4CBDD10717C5BCF0009B7FD6 /* MainStoryboard_iPhone.storyboard in Resources */,
+				4CBDD12017C5BDA2009B7FD6 /* landscape_iPad_background.png in Resources */,
+				4CBDD12117C5BDA2009B7FD6 /* landscape_iPad_background@2x.png in Resources */,
+				4CBDD12217C5BDA2009B7FD6 /* landscape_iPhone.png in Resources */,
+				4CBDD12317C5BDA2009B7FD6 /* landscape_iPhone@2x.png in Resources */,
+				4CBDD12417C5BDA2009B7FD6 /* landscape_iPhone5@2x.png in Resources */,
+				4CBDD12517C5BDA2009B7FD6 /* iPhone_4_Background.png in Resources */,
+				4CBDD12617C5BDA2009B7FD6 /* iPhone_5_Background.png in Resources */,
+				4CBDD12717C5BDA2009B7FD6 /* portrait_background@2x.png in Resources */,
+				4CBDD12817C5BDA2009B7FD6 /* portrait_background.png in Resources */,
+				4CBDD12917C5BDA2009B7FD6 /* Default-568h@2x.png in Resources */,
+				4CBDD12A17C5BDA2009B7FD6 /* Default.png in Resources */,
+				4CBDD12B17C5BDA2009B7FD6 /* Default@2x.png in Resources */,
+				4CBDD12C17C5BDA2009B7FD6 /* icon.png in Resources */,
+				4CBDD12D17C5BDA2009B7FD6 /* icon@2x.png in Resources */,
+				4CBDD12E17C5BDA2009B7FD6 /* SnakkBackground.png in Resources */,
+				4CBDD12F17C5BDA2009B7FD6 /* SnakkBackground@2x.png in Resources */,
+				4CBDD13017C5BDA2009B7FD6 /* first.png in Resources */,
+				4CBDD13117C5BDA2009B7FD6 /* first@2x.png in Resources */,
+				4CBDD13217C5BDA2009B7FD6 /* fourth.png in Resources */,
+				4CBDD13317C5BDA2009B7FD6 /* pause.png in Resources */,
+				4CBDD13417C5BDA2009B7FD6 /* play.png in Resources */,
+				4CBDD13517C5BDA2009B7FD6 /* second.png in Resources */,
+				4CBDD13617C5BDA2009B7FD6 /* second@2x.png in Resources */,
+				4CBDD13717C5BDA2009B7FD6 /* third.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5594981B15366E4100D6495D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55949863153671A600D6495D /* SnakkOpenUDID.m in Sources */,
+				55202C031537C59C00B2244E /* NSDictionary+QueryStringBuilder.m in Sources */,
+				4CF87FF317C3185E0068AFE1 /* main.m in Sources */,
+				4CF8800A17C318B10068AFE1 /* AdPromptDemoController.m in Sources */,
+				4CF8800B17C318B10068AFE1 /* BannerAdController.m in Sources */,
+				4CF8800C17C318B10068AFE1 /* InterstitialController.m in Sources */,
+				4CF8800D17C318B10068AFE1 /* AdMobController.m in Sources */,
+				4CF8800E17C318B10068AFE1 /* AppDelegate.m in Sources */,
+				4CF8800F17C318B10068AFE1 /* FullScreenVC.m in Sources */,
+				4CF8801017C318B10068AFE1 /* VideoAdController.m in Sources */,
+				4CF8801317C318B10068AFE1 /* JSONKit.m in Sources */,
+				4CF8802117C318F50068AFE1 /* TapItMediationAdMob.m in Sources */,
+				4CF8802217C318F50068AFE1 /* SnakkBrowserController.m in Sources */,
+				4CF8803517C319020068AFE1 /* SnakkAdPrompt.m in Sources */,
+				4CF8803617C319020068AFE1 /* SnakkAdView.m in Sources */,
+				4CF8803717C319020068AFE1 /* SnakkAppTracker.m in Sources */,
+				4CF8803817C319020068AFE1 /* SnakkBannerAdView.m in Sources */,
+				4CF8803917C319020068AFE1 /* SnakkInterstitialAd.m in Sources */,
+				4CF8803A17C319020068AFE1 /* SnakkRequest.m in Sources */,
+				4CF8803B17C319020068AFE1 /* SnakkAdManager.m in Sources */,
+				4CF8803C17C319020068AFE1 /* SnakkInterstitialAdViewController.m in Sources */,
+				4CF8803D17C319020068AFE1 /* SnakkHelpers.m in Sources */,
+				4CF8803E17C319020068AFE1 /* SnakkMraidCommand.m in Sources */,
+				4CBDD13A17C5C6C6009B7FD6 /* BackgroundHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4CBDD10217C5BCF0009B7FD6 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CBDD10317C5BCF0009B7FD6 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		4CBDD10417C5BCF0009B7FD6 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CBDD10517C5BCF0009B7FD6 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		4CF87FF517C318830068AFE1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CF87FF617C318830068AFE1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		553ACB64158EF48600C722D9 /* Ad Hoc Distrubution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv6,
+				);
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Giancarlo Maniaci";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F57A3149-83AD-4747-B7DA-34F2B12F6148";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s armv6";
+			};
+			name = "Ad Hoc Distrubution";
+		};
+		553ACB65158EF48600C722D9 /* Ad Hoc Distrubution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Snakk-iOS-Sample/Snakk-iOS-Sample-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "Snakk-iOS-Sample/Snakk-iOS-Sample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Lib/GoogleAdMobAdsSDK\"",
+					"\"$(SRCROOT)/Lib/GoogleAdMobAdsSDK/Add-ons/GoogleAnalyticsiOS_2.0beta3/Library\"",
+					"\"$(SRCROOT)/Lib\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "Snakk-iOS-Sample";
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = "Ad Hoc Distrubution";
+		};
+		5594984915366E4200D6495D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv6,
+				);
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s armv6";
+			};
+			name = Debug;
+		};
+		5594984A15366E4200D6495D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv6,
+				);
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s armv6";
+			};
+			name = Release;
+		};
+		5594984C15366E4200D6495D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Snakk-iOS-Sample/Snakk-iOS-Sample-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "Snakk-iOS-Sample/Snakk-iOS-Sample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Lib/GoogleAdMobAdsSDK\"",
+					"\"$(SRCROOT)/Lib/GoogleAdMobAdsSDK/Add-ons/GoogleAnalyticsiOS_2.0beta3/Library\"",
+					"\"$(SRCROOT)/Lib\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "Snakk-iOS-Sample";
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5594984D15366E4200D6495D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Snakk-iOS-Sample/Snakk-iOS-Sample-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "Snakk-iOS-Sample/Snakk-iOS-Sample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Lib/GoogleAdMobAdsSDK\"",
+					"\"$(SRCROOT)/Lib/GoogleAdMobAdsSDK/Add-ons/GoogleAnalyticsiOS_2.0beta3/Library\"",
+					"\"$(SRCROOT)/Lib\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "Snakk-iOS-Sample";
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5594981915366E4100D6495D /* Build configuration list for PBXProject "Snakk-iOS-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5594984915366E4200D6495D /* Debug */,
+				5594984A15366E4200D6495D /* Release */,
+				553ACB64158EF48600C722D9 /* Ad Hoc Distrubution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5594984B15366E4200D6495D /* Build configuration list for PBXNativeTarget "Snakk-iOS-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5594984C15366E4200D6495D /* Debug */,
+				5594984D15366E4200D6495D /* Release */,
+				553ACB65158EF48600C722D9 /* Ad Hoc Distrubution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5594981615366E4100D6495D /* Project object */;
+}
