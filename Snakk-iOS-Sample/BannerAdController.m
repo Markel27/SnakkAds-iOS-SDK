@@ -13,7 +13,7 @@
 
 // This is the zone id for the BannerAd Example
 // go to http://ads.snakkads.com/ to get one for your app.
-#define ZONE_ID @"31373" // for example use only, don't use this zone in your app!
+#define ZONE_ID (IS_IPAD ? @"31381" : @"31373")
 
 @implementation BannerAdController
 

@@ -14,7 +14,7 @@
 
 // This is the zone id for the AdPrompt Example
 // go to http://ads.snakkads.com/ to get your's
-#define ZONE_ID @"31379"
+#define ZONE_ID (IS_IPAD ? @"31387" : @"31379")
 
 
 @interface AdPromptDemoController ()

@@ -14,7 +14,7 @@
 
 // This is the zone id for the Interstitial Example
 // go to http://ads.snakkads.com/ to get your's
-#define ZONE_ID @"31375"
+#define ZONE_ID (IS_IPAD ? @"31383" : @"31375")
 
 @interface InterstitialController ()
 

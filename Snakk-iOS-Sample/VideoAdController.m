@@ -68,7 +68,9 @@
 
 //*************************************
 // Replace with your valid ZoneId here.
+
 NSString *const kZoneId         = @"31377";     //@"24839";     //@"22219";
+NSString *const kZoneIdIpad     = @"31385";     //@"24839";     //@"22219";
 
 // For Testing Purpose Only.
 NSString *const kTestCreativeId = @"130902";    //@"137902";    //@"128681";
@@ -359,7 +361,8 @@ NSString *const kTestCreativeId = @"130902";    //@"137902";    //@"128681";
     [self unloadAdsManager];
 
     // Create an adsRequest object and request ads from the ad server.
-    TVASTAdsRequest *request = [TVASTAdsRequest requestWithAdZone:kZoneId];
+    NSString * const zoneIdToUse = (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) ? kZoneIdIpad : kZoneId;
+    TVASTAdsRequest *request = [TVASTAdsRequest requestWithAdZone:zoneIdToUse];
     [request setCustomParameter:kTestCreativeId forKey:@"cid"];
     [request setCustomParameter:@"preroll" forKey:@"videotype"];
     [_adsLoader requestAdsWithRequestObject:request];
