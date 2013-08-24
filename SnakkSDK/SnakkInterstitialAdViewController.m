@@ -42,7 +42,7 @@
     [self.view addSubview:(UIView *)self.adView];
     self.view.backgroundColor = [UIColor blackColor];
     
-    [self repositionToInterfaceOrientation:[UIApplication sharedApplication].statusBarOrientation];
+  //  [self repositionToInterfaceOrientation:[UIApplication sharedApplication].statusBarOrientation];
 }
 
 
