@@ -43,6 +43,10 @@
     self.view.backgroundColor = [UIColor blackColor];
     
   //  [self repositionToInterfaceOrientation:[UIApplication sharedApplication].statusBarOrientation];
+    
+    //stop-gap fix for ads getting pushed above the top of the screen.
+    if (self.adView.frame.origin.y < 0)
+        self.adView.frame = CGRectOffset(self.adView.frame, 0, -self.adView.frame.origin.y);
 }
 
 
@@ -131,6 +135,10 @@
     
     x = frame.size.width/2 - self.adView.frame.size.width/2;
     y = frame.size.height/2 - self.adView.frame.size.height/2;
+    
+    //stop-gap fix for ads getting pushed above the top of the screen.
+    if (y < 0)
+        y = 0;
     
     self.adView.center = self.view.center;
     
